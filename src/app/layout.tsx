@@ -14,7 +14,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Fadlan Kamil - Portfolio",
   description: "Personal portfolio website showcasing my projects and skills",
 };
 
