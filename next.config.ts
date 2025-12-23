@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* Solusi untuk error Call Stack: Matikan tracing sementara */
+  outputFileTracing: false,
 
-const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['localhost', 'images.unsplash.com', 'picsum.photos', 'via.placeholder.com'],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
