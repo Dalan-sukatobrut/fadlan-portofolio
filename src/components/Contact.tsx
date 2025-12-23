@@ -51,14 +51,14 @@ export const Contact = () => {
     {
       icon: <FiMail />,
       title: "Email",
-      content: "fadlan.kamil@example.com",
-      link: "mailto:fadlan.kamil@example.com",
+      content: "kamilmuhfadlan@gmail.com",
+      link: "mailto:kamilmuhfadlan@gmail.com",
     },
     {
       icon: <FiPhone />,
       title: "Phone",
-      content: "+62 123 456 7890",
-      link: "tel:+6212345678901",
+      content: "+6289653342346",
+      link: "tel:+6289653342346",
     },
     {
       icon: <FiMapPin />,
@@ -70,10 +70,9 @@ export const Contact = () => {
 
   // Social media icons with react-icons
   const socialIcons = [
-    { name: "github", icon: <FaGithub size={18} />, url: "https://github.com/yourusername" },
-    { name: "linkedin", icon: <FaLinkedin size={18} />, url: "https://linkedin.com/in/yourusername" },
-    { name: "twitter", icon: <FaTwitter size={18} />, url: "https://twitter.com/yourusername" },
-    { name: "instagram", icon: <FaInstagram size={18} />, url: "https://instagram.com/yourusername" },
+    { name: "github", icon: <FaGithub size={18} />, url: "https://github.com/Dalan-sukatobrut" },
+    { name: "twitter", icon: <FaTwitter size={18} />, url: "https://x.com/Adit_kyun" },
+    { name: "instagram", icon: <FaInstagram size={18} />, url: "https://www.instagram.com/15fdlaann_/?next=%2F" },
   ];
 
   const containerVariants = {

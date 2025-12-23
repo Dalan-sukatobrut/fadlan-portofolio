@@ -11,10 +11,10 @@ export const About = () => {
   });
 
   const personalInfo = [
-    { icon: <FiUser />, label: "Name", value: "Muhammad Fadlan Kamil" },
-    { icon: <FiCalendar />, label: "Date of Birth", value: "January 1, 1990" },
+    { icon: <FiUser />, label: "Name", value: "Muh.fadlan kamil" },
+    { icon: <FiCalendar />, label: "Date of Birth", value: "December 4, 2007" },
     { icon: <FiMapPin />, label: "Location", value: "Makassar, Indonesia" },
-    { icon: <FiMail />, label: "Email", value: "fadlan.kamil@example.com" },
+    { icon: <FiMail />, label: "Email", value: "kamilmuhfadlan@gmail.com" },
   ];
 
   const containerVariants = {
@@ -61,14 +61,11 @@ export const About = () => {
                 Who am I?
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                I'm a passionate web developer with over 5 years of experience in creating
-                modern and responsive web applications. I specialize in frontend development
-                with React, Next.js, and TypeScript.
+                Saya adalah seorang pengembang web yang penuh semangat dengan pengalaman lebih dari 2 tahun dalam menciptakan aplikasi web modern dan responsif. Saya mengkhususkan diri dalam pengembangan frontend menggunakan React, Next.js, dan TypeScript.
+
               </p>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                My journey in web development started when I was in college, and since then,
-                I've been constantly learning and improving my skills. I believe in writing
-                clean, maintainable code and creating intuitive user experiences.
+                Perjalanan saya dalam pengembangan web dimulai sejak masuk Smk TELKOM makasaar, dan sejak itu saya terus belajar serta meningkatkan keterampilan. Saya percaya pada pentingnya menulis kode yang bersih, mudah dipelihara, serta menciptakan pengalaman pengguna yang intuitif.
               </p>
               <motion.a
                 href="/your-resume.pdf" // Ganti dengan path resume Anda

@@ -43,7 +43,7 @@ export const Hero = () => {
             Hello, I'm
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            Fadlan Kamil
+            Fadlan.
           </h1>
           <h3 className="text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-300 mb-6">
             I'm a <span ref={typedRef} className="text-blue-600 dark:text-blue-400"></span>
