@@ -77,4 +77,3 @@ module.exports = {
   plugins: [],
 }
 
-//cobaan apa lagi??//
