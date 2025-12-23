@@ -11,7 +11,7 @@ export const About = () => {
   });
 
   const personalInfo = [
-    { icon: <FiUser />, label: "Name", value: "Muh.fadlan kamil" },
+    { icon: <FiUser />, label: "Name", value: "Muh.fadlan kamil." },
     { icon: <FiCalendar />, label: "Date of Birth", value: "December 4, 2007" },
     { icon: <FiMapPin />, label: "Location", value: "Makassar, Indonesia" },
     { icon: <FiMail />, label: "Email", value: "kamilmuhfadlan@gmail.com" },
