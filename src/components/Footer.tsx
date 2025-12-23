@@ -33,7 +33,7 @@ export const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white mb-4 md:mb-0">
-              Fadlan Kamil
+              fadlan
             </Link>
             
             <div className="flex flex-wrap justify-center space-x-4 md:space-x-6">
@@ -53,7 +53,7 @@ export const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-600 dark:text-gray-400 mb-4 md:mb-0">
                 <p className="mb-1">
-                  &copy; {new Date().getFullYear()} Fadlan Kamil. All rights reserved.
+                  &copy; {new Date().getFullYear()} fadlan. All rights reserved.
                 </p>
                 <p className="text-sm">
                   Designed and built with ❤️ using Next.js and Tailwind CSS
