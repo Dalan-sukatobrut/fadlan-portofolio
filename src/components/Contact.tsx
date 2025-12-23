@@ -51,14 +51,14 @@ export const Contact = () => {
     {
       icon: <FiMail />,
       title: "Email",
-      content: "kamilmuhfadlan@gmail.com",
-      link: "mailto:kamilmuhfadlan@gmail.com",
+      content: "fadlan.kamil@example.com",
+      link: "mailto:fadlan.kamil@example.com",
     },
     {
       icon: <FiPhone />,
       title: "Phone",
-      content: "+6289653342346",
-      link: "tel:+6289653342346",
+      content: "+62 123 456 7890",
+      link: "tel:+6212345678901",
     },
     {
       icon: <FiMapPin />,
