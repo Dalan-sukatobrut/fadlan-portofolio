@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}', // cukup satu path, mencakup semua file di src
   ],
   darkMode: 'class',
   theme: {
@@ -58,8 +55,8 @@ module.exports = {
         sm: "0.25rem",
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)'],
-        mono: ['var(--font-geist-mono)'],
+        sans: ['var(--font-sans)'], // gunakan variable dari next/font
+        mono: ['var(--font-mono)'],
       },
       keyframes: {
         fadeIn: {
